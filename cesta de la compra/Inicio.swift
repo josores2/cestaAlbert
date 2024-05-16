@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Inicio: View {
+    @EnvironmentObject private var authModel: AuthViewModel
+    
     var body: some View {
     NavigationView{
         VStack{

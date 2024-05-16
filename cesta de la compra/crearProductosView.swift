@@ -11,7 +11,7 @@ struct crearProductosView: View {
     
     @State private var nombreProducto:String = ""
     @State private var descrProducto:String = ""
-    @State private var product = Producto()
+    //@State private var product = Producto
     
     
     var body: some View {
@@ -31,9 +31,9 @@ struct crearProductosView: View {
             }.padding(.leading)
             //padding()
             Button(action: {
-                product.nombre = nombreProducto
-                product.caracteristicas = descrProducto
-                print(product)
+                //product.nombre = nombreProducto
+               // product.caracteristicas = descrProducto
+                //print(product)
             }) {
                 Text("AGREGAR PRODUCTO")
             }

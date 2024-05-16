@@ -9,9 +9,10 @@ import Foundation
 import SwiftUI
 
 struct Producto {
-    var nombre: String = ""
-    var caracteristicas : String = ""
-    var precio : Float = 0.0
+    var nombre: String
+    var caracteristicas : String
+    var precio : Float
+    var usuarioE : String
 }
 
 
