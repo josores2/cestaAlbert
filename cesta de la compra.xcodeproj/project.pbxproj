@@ -18,6 +18,7 @@
 		82150E7A2BF50932000AA54D /* HacerLaCompraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82150E792BF50932000AA54D /* HacerLaCompraView.swift */; };
 		82150E7C2BF50950000AA54D /* CestaFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82150E7B2BF50950000AA54D /* CestaFinalView.swift */; };
 		82150E7E2BF50A69000AA54D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82150E7D2BF50A69000AA54D /* Model.swift */; };
+		82150E802BF764B4000AA54D /* ProductosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82150E7F2BF764B4000AA54D /* ProductosViewModel.swift */; };
 		D37FDCDF2BF669390048D65A /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FDCDE2BF669390048D65A /* HolderView.swift */; };
 		D37FDCE12BF669480048D65A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FDCE02BF669480048D65A /* SignUpView.swift */; };
 		D37FDCE32BF66A390048D65A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D37FDCE22BF66A390048D65A /* GoogleService-Info.plist */; };
@@ -64,6 +65,7 @@
 		82150E792BF50932000AA54D /* HacerLaCompraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacerLaCompraView.swift; sourceTree = "<group>"; };
 		82150E7B2BF50950000AA54D /* CestaFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CestaFinalView.swift; sourceTree = "<group>"; };
 		82150E7D2BF50A69000AA54D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		82150E7F2BF764B4000AA54D /* ProductosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModel.swift; sourceTree = "<group>"; };
 		D37FDCDE2BF669390048D65A /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
 		D37FDCE02BF669480048D65A /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		D37FDCE22BF66A390048D65A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				D37FDCF42BF6764C0048D65A /* ForgotPasswordView.swift */,
 				D37FDCF62BF67CA50048D65A /* Aplication.swift */,
 				82150E532BF50884000AA54D /* Preview Content */,
+				82150E7F2BF764B4000AA54D /* ProductosViewModel.swift */,
 			);
 			path = "cesta de la compra";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				82150E7A2BF50932000AA54D /* HacerLaCompraView.swift in Sources */,
 				D37FDCF52BF6764C0048D65A /* ForgotPasswordView.swift in Sources */,
 				D37FDCF32BF675B20048D65A /* AuthViewModel.swift in Sources */,
+				82150E802BF764B4000AA54D /* ProductosViewModel.swift in Sources */,
 				D37FDCF72BF67CA50048D65A /* Aplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

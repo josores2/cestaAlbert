@@ -13,17 +13,17 @@ struct Inicio: View {
     var body: some View {
     NavigationView{
         VStack{
-            NavigationLink(destination: crearProductosView()){
+            NavigationLink(destination: crearProductosView().environmentObject(authModel)){
                 Text("CREAR PRODUCTOR NUEVOS")
             }
-            .padding()
+            //.padding()
             Image("logocesta")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-            NavigationLink(destination: HacerLaCompraView()){
+            NavigationLink(destination: HacerLaCompraView().environmentObject(authModel)){
                 Text("HACER LA COMPRA")
             }
-            .padding()
+            //.padding()
         }
     }//Fin NavigationView
     }

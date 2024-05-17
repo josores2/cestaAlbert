@@ -7,8 +7,12 @@
 
 import Foundation
 import SwiftUI
+import FirebaseFirestoreSwift
+import FirebaseAuth
+import FirebaseFirestore
 
-struct Producto {
+struct Producto : Codable, Identifiable, Hashable {
+    @DocumentID var id:String?
     var nombre: String
     var caracteristicas : String
     var precio : Float
